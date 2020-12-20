@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- icons-link -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- style-link -->
+	<link rel="stylesheet" href="css/style.css">
+	<title>Music</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="plaer">
+			<div class="plaer__title">Faydee Karra</div>
+			<div class="plaer__images">
+				<div class="plaer__img">
+					<img src="./img/2.png" alt="Plaer-image">
+				</div>
+			</div>
+			<div class="plaer__subtitle">Better Days</div>
+			<div class="plaer__range">
+				<div class="plaer__current--time">0:0</div>
+				<div class="plaer__range--out">
+					<input type="range" name="range" id="range" min="0" max="100" value="0">
+				</div>
+				<div class="plaer__duration">0:0</div>
+			</div>
+			<div class="plaer__controls">
+				<i class="fa fa-backward" id="prev"></i>
+				<i class="fa fa-play" id="play"></i>
+				<i class="fa fa-forward" id="next"></i>
+			</div>
+
+		</main>
+		<div class="link">
+			<audio src="./audio/Arman_Cekin-Better_Days_(ft._Faydee__Karra).mp3"></audio>
+		</div>
+	</div>
+
+	<div class="loader">
+
+
+		<div class="lds-ellipsis">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<p>Magic music</p>
+	</div>
+	<!--javascript-->
+	<script src="js/main.js"></script>
+	<!--/javascript-->
+</body>
+
+</html>
